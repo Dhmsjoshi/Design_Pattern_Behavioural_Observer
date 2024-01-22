@@ -1,0 +1,21 @@
+Amazon -> Publisher -> Contains list of subscriber objects
+
+10 subscriber -> 10 Objects
+Amazon -> 3 Objects (of Amazon class)
+
+1 Object -> 3 Subscribers in the list;
+2 Object -> 4 Subscribers in the list;
+3 Object -> 3 Subscribers in the list;
+
+Amazon {List}
+a1obj -> list
+a2obj -> list
+a3obj -> list
+
+Whenever we create new subscriber we have to call below methods
+register
+deregster
+
+But we want to make it smooth as possible.
+
+
